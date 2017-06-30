@@ -1,0 +1,11 @@
+Class description.
+
+1. Reader - encapsulates reading from source file
+2. Writer - responsible for writing to log file
+3. Collector - splits List of commands, gained from Reader and organizes this snippets into List of Procedures
+4. Distributor - gets List of Procedures from Collector and calls methods from JsoupExecutor according to Procedure name
+5. JsoupExecutor - uses Jsoup framework for getting data from web page
+6. Procedure - object representation of the user commands.
+7. ResultReporter - displays log into console and organizes report List that is used by Writer
+8. Statistic - responsible for gathering and calculating statistics
+

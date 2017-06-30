@@ -1,0 +1,4 @@
+1. USAGE: java -jar ht1.jar SOURCE_FILE LOG_FILE
+2. Source .txt file must have UTF-8 encoding
+3. System not supports using nested Quotation marks ("") inside parameters e.g. checkPageTitle "Google "Search" Page"
+
